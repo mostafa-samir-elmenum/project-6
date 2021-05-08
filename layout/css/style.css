@@ -1,0 +1,360 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cairo', sans-serif;
+}
+/*start header*/
+.header
+{
+    background-image:url("../img/intro-bg.jpg");
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    position: relative;
+}
+.header .header-overlay
+{
+    background-color: rgba(25, 118, 210,0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.header .navbar
+{
+    z-index: 200;
+    position: fixed;
+    width: 100%;
+    background-color: #fff !important;
+    height: 90px;
+}
+.header .navbar .navbar-brand
+{
+    margin-left: 290px;
+    font-size: 37px;
+    margin-right: 76px;
+}
+.header .navbar .collapse 
+{
+    position: relative;
+    left: 5px;
+    direction: rtl;
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+}
+.header .navbar-text
+{
+    position: relative;
+    left: 135px;
+    font-family: 'Cairo', sans-serif;
+    font-size: 20px;
+}
+.header .navbar-text .inside
+{
+    color: #666;
+}
+.header .navbar .collapse  .navbar-nav .nav-item .nav-link
+{
+    margin-right: 30px;
+}
+.header .navbar .navbar-brand,
+.header .navbar .navbar-text,
+.header .navbar .collapse .navbar-nav .nav-item a
+{
+    color: #0D47A1 !important;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.header .header-content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+    color: #fff;
+    text-transform: capitalize;
+    background-color: #33333330;
+    padding: 14px;
+}
+.header .header-content h2
+{
+    font-size: 67px;
+}
+.header .header-content p
+{
+    font-size: 22px;
+}
+/*end header*/
+
+/*start our info*/
+.our-info
+{
+    background-color:rgba(13, 71, 161,1.0) ;
+    color: #fff;
+    text-transform: capitalize;
+    padding-top: 15px;
+}
+.our-info h3
+{
+    text-align: right;
+}
+.our-info .info-button
+{
+    padding-top: 20px;
+    margin-left: 181px;
+}
+.our-info .info-button .btn
+{
+    width: 200px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+    border: 2px solid #fff !important;
+}
+.our-info .info-button .btn:hover
+{
+    background-color: #fff !important;
+    color: rgba(13, 71, 161,1.0);
+}
+/*end our info*/
+
+/*start about us*/
+.about-us
+{
+    background-color: #eee;
+    height: 476px;
+    width: 100%;
+    padding-top: 90px;
+    margin-bottom: 40px;
+}
+.about-us h2,
+.about-us h3
+{
+
+    text-align: right;
+}
+.about-us p
+{
+    text-align: right;
+}
+.about-us .about-image
+{
+    background-color: #fff;
+    height: 300px;
+    width: 80%;
+}
+.about-us .about-image img
+{
+    width: 99%;
+    padding: 10px;
+}
+.about-us h2
+{
+    text-transform: capitalize;
+    font-size: 38px;
+    color: #444343;
+
+}
+.about-us p
+{
+    text-transform: capitalize;
+    line-height: 1.6;
+    color: #666;
+}
+.about-us h3
+{
+    text-transform: capitalize;
+    color: #444343;
+    font-size: 28px;
+}
+.about-us ul
+{
+   text-align: right;
+}
+.about-us ul li 
+{
+    text-transform: capitalize;
+    color: #666;
+}
+.about-us ul li i
+{
+    color:  rgba(13, 71, 161,0.7);
+    margin-left: 11px;
+}
+/*end about us*/
+
+/*start our services*/
+.our-services
+{
+    margin-bottom: 50px;
+}
+.our-services h2
+{
+    text-transform: capitalize;
+    font-size: 36px;
+    text-align: right;
+}
+
+.our-services .servicess h3
+{
+    text-transform: capitalize;
+    margin-top: 15px;
+    text-align: right;
+}
+.our-services .servicess p
+{
+    text-transform: capitalize;
+    color: #666;
+    text-align: right;
+}
+/*end our services*/
+/*start our work*/
+.our-work
+{
+    background-color: #eee;
+    height: 476px;
+    width: 100%;
+    padding-top: 50px; 
+  margin-bottom: 150px;
+}
+.our-work h2
+{
+    text-transform: capitalize;
+    font-size: 36px;
+    text-align: right;
+    margin-bottom: 15px;
+}
+.our-work .work
+{
+    position: relative;
+    z-index: 1;
+    height: 255px;
+    width: 100%;
+}
+ .work-overlay
+{
+    background-color: #000;
+    opacity: 0.7;
+    z-index: 2;
+    position: absolute;
+    height: 224px;
+    width: 90%;
+    left: 20px;
+    top: 5px;
+    display:none ;
+    color: #fff;
+}
+.our-work .work-overlay .overlay-content
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+/*end our work*/
+
+/*start testmonials*/
+.testmonials
+{
+    background-color: #eee;
+    height: 404px;
+    width: 100%;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+.testmonials h2
+{
+    text-transform: capitalize;
+    font-size: 36px;
+    text-align: right;
+    margin-bottom: 30px;
+}
+.testmonials .x
+{
+    margin-bottom: 15px;
+}
+.testmonials .x p
+{
+    text-transform: capitalize;
+   color: #666;
+   text-align: right;
+}
+/*end testmonials*/
+
+/*start footer*/
+.footer
+{
+    background-color: #0D47A1;
+    width: 100%;
+    height: 500px;
+    padding-top: 70px;
+    text-align: right;
+}
+.footer h2
+{
+    text-transform: capitalize;
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Redressed', cursive;
+    margin-bottom: 20px;
+} 
+.footer hr
+{
+    background-color: #fff;
+    height: 2px;
+}
+.footer .left-section p
+{
+    text-transform: capitalize;
+    font-size: 18px;
+    color: #fff;
+}
+.footer .left-section textarea
+{
+    margin-bottom: 27px;
+}
+.footer .left-section button
+{
+    color: #fff;
+    font-weight: bold;
+}
+.footer .con-title
+{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 16px;
+}
+.footer .con-content
+{
+    color: #aaa;
+    text-transform: capitalize;
+}
+.footer ul
+{
+    text-align: center;
+}
+.footer ul li
+{
+    list-style: none;
+    display: inline-block;
+}
+.footer .footer-icon ul li i
+{
+    color:#fff ;
+}
+/*end footer*/
+.copyright
+{
+    height: 50px;
+    padding-top: 15px;
+}
+.copyright p
+{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Redressed', cursive;
+}
